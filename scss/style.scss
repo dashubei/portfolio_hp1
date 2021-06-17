@@ -1,0 +1,147 @@
+html, body {
+  font-family: "ヒラギノ明朝 Pro";
+  background-color: #000;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  background-color: #4D0000;
+  height: 94px;
+  .header-logo {
+    margin: 19px 0 19px 30px;
+    img {
+      width: 150px;
+    }
+  }
+  .header-nav {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .nav-list {
+    display: flex;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    margin-right: 40px;
+    li, a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+    }
+    .nav-item:nth-child(n+2) {
+      margin-left: 20px;
+    }
+  }
+}
+
+.top {
+  background-image: url(../image/top-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 674px;
+  .top-text {
+    color: #fff;
+    font-size: 50px;
+    padding-top: 270px;
+    padding-bottom: 269px;
+    text-align: center;
+    line-height: 85px;
+  }
+}
+
+.cmn-title {
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+}
+
+.cmn-subtitle {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.item-btn {
+  text-align: center;
+  margin-top: 60px;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #b8860b;
+    font-size: 14px;
+    display: inline-block;
+    width: 155px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 8px;
+  }
+}
+
+.features {
+  padding-top: 80px;
+  .features-cont {
+    padding-top: 60px;
+  }
+  .features-item {
+    display: flex;
+    align-items: center;
+    .features-item-img, img {
+      width: 640px;
+    }
+    .features-item-title {
+      color: #ffd;
+      font-size: 28px;
+      padding-left: 43px;
+      line-height: 48px;
+    }
+    .features-item-detail {
+      color: #fff;
+      font-size: 18px;
+      padding-left: 43px;
+      line-height: 26px;
+      padding-top: 50px;
+      text-align: left;
+      padding-right: 42px;
+    }
+  }
+}
+
+.plan {
+  padding-top: 80px;
+  .cmn-subtitle, p {
+    padding-bottom: 60px;
+  }
+}
+
+.plan-list {
+  .plan-item {
+    background-color: #fff;
+    .plan-img {
+      img {
+        padding-bottom: 24px;
+      }
+    }
+    .plan-item-text {
+      margin: 25px 25px 50px 25px;
+      .plan-item-title {
+        font-size: 16px;
+      }
+      .plan-item-detail {
+        padding-top: 66px;
+        font-size: 14px;
+        > span {
+          color: red;
+        }
+      }
+      }
+    }
+  }
+
+
+@import "foundation/base";
